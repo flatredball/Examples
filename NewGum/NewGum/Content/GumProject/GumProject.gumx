@@ -74,6 +74,11 @@
     <LinkType>ReferenceOriginal</LinkType>
   </ComponentReference>
   <ComponentReference>
+    <Name>Controls/DialogBox</Name>
+    <ElementType>Component</ElementType>
+    <LinkType>ReferenceOriginal</LinkType>
+  </ComponentReference>
+  <ComponentReference>
     <Name>Controls/Keyboard</Name>
     <ElementType>Component</ElementType>
     <LinkType>ReferenceOriginal</LinkType>
