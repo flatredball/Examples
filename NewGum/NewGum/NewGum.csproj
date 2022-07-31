@@ -82,6 +82,10 @@
     <Compile Include="Forms\Screens\StylesScreenForms.Generated.cs">
       <DependentUpon>StylesScreenForms.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Screens\TestScreenForms.cs" />
+    <Compile Include="Forms\Screens\TestScreenForms.Generated.cs">
+      <DependentUpon>TestScreenForms.cs</DependentUpon>
+    </Compile>
     <Compile Include="Game1.cs" />
     <Compile Include="Game1.Generated.cs">
       <DependentUpon>Game1.cs</DependentUpon>
@@ -216,6 +220,10 @@
     <Compile Include="GumRuntimes\Controls\TextBoxRuntime.Generated.cs">
       <DependentUpon>TextBoxRuntime.cs</DependentUpon>
     </Compile>
+    <Compile Include="GumRuntimes\Controls\ToastRuntime.cs" />
+    <Compile Include="GumRuntimes\Controls\ToastRuntime.Generated.cs">
+      <DependentUpon>ToastRuntime.cs</DependentUpon>
+    </Compile>
     <Compile Include="GumRuntimes\Controls\TreeViewItemRuntime.cs" />
     <Compile Include="GumRuntimes\Controls\TreeViewItemRuntime.Generated.cs">
       <DependentUpon>TreeViewItemRuntime.cs</DependentUpon>
@@ -274,6 +282,10 @@
     <Compile Include="GumRuntimes\StylesScreenRuntime.cs" />
     <Compile Include="GumRuntimes\StylesScreenRuntime.Generated.cs">
       <DependentUpon>StylesScreenRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\TestScreenRuntime.cs" />
+    <Compile Include="GumRuntimes\TestScreenRuntime.Generated.cs">
+      <DependentUpon>TestScreenRuntime.cs</DependentUpon>
     </Compile>
     <Compile Include="GumRuntimes\TextRuntime.Generated.cs" />
     <Compile Include="Performance\IEntityFactory.Generated.cs" />
@@ -421,6 +433,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>textbox</Name>
     </None>
+    <None Include="content\gumproject\components\controls\toast.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>toast</Name>
+    </None>
     <None Include="content\gumproject\components\controls\treeview.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>treeview</Name>
@@ -556,6 +572,10 @@
     <None Include="content\gumproject\screens\stylesscreen.gusx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>stylesscreen</Name>
+    </None>
+    <None Include="content\gumproject\screens\testscreen.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>testscreen</Name>
     </None>
     <None Include="content\gumproject\standards\circle.gutx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

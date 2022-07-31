@@ -17,6 +17,12 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IconCategory</Type>
+      <Name>ContinueIndicatorInstance.IconCategoryState</Name>
+      <Value xsi:type="xsd:string">Arrow2</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>float</Type>
       <Name>ContinueIndicatorInstance.Rotation</Name>
       <Value xsi:type="xsd:float">-90</Value>
@@ -62,6 +68,12 @@
       <Type>PositionUnitType</Type>
       <Name>ContinueIndicatorInstance.Y Units</Name>
       <Value xsi:type="xsd:int">5</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>bool</Type>
+      <Name>ExposeChildrenEvents</Name>
+      <Value xsi:type="xsd:boolean">false</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -160,7 +172,7 @@
   </Instance>
   <Instance>
     <Name>ContinueIndicatorInstance</Name>
-    <BaseType>Controls/ButtonIcon</BaseType>
+    <BaseType>Elements/Icon</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Behaviors>

@@ -16,6 +16,7 @@ using FlatRedBall.Localization;
 using Microsoft.Xna.Framework;
 using System.Reflection;
 using FlatRedBall.Forms.Controls;
+using FlatRedBall.Forms.Controls.Popups;
 
 namespace NewGum.Screens
 {
@@ -24,11 +25,36 @@ namespace NewGum.Screens
 
         void CustomInitialize()
         {
-
-
             PopulateListBox();
             PopulateComboBox();
             PopulateTreeView();
+            InitializeDialogBoxUi();
+            InitializeToastUi();
+        }
+
+        private void InitializeToastUi()
+        {
+            Forms.ShowToastButton.Click += (not, used) =>
+            {
+                ToastManager.Show($"It is now: {DateTime.Now}", durationInSeconds:10);
+            };
+        }
+
+        private void InitializeDialogBoxUi()
+        {
+            Forms.DialogBoxInstance.IsVisible = false;
+
+            List<string> pages = new List<string>
+            {
+                "This is a dialog box. It's built in to FRB because this is a common control in lots of games",
+                "This is the second page of the dialog box. This only shows after the first page.",
+                "What?!? A third page? Can you believe it?"
+            };
+
+
+            Forms.ShowDialogButton.Click += (not, used) =>
+                Forms.DialogBoxInstance.Show(pages);
+
         }
 
         void CustomActivity(bool firstTimeCalled)
