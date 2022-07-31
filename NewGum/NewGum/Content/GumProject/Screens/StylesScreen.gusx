@@ -533,6 +533,30 @@
     </Variable>
     <Variable>
       <Type>string</Type>
+      <Name>DialogBoxInstance.Parent</Name>
+      <Value xsi:type="xsd:string">ControlsContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>DialogBoxInstance.Width</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>DialogBoxInstance.Width Units</Name>
+      <Value xsi:type="xsd:int">2</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>DialogBoxInstance.Y</Name>
+      <Value xsi:type="xsd:float">8</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
       <Name>DividerHorizontalInstance.Parent</Name>
       <Value xsi:type="xsd:string">ElementsContainer</Value>
       <SetsValue>true</SetsValue>
@@ -2091,6 +2115,30 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>string</Type>
+      <Name>TreeViewInstance.Parent</Name>
+      <Value xsi:type="xsd:string">ControlsContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>TreeViewInstance.Width</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>TreeViewInstance.Width Units</Name>
+      <Value xsi:type="xsd:int">2</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>TreeViewInstance.Y</Name>
+      <Value xsi:type="xsd:float">8</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>ColorCategory</Type>
       <Name>VerticalLinesInstance.LineColor</Name>
       <Value xsi:type="xsd:string">Primary</Value>
@@ -2439,6 +2487,16 @@
   <Instance>
     <Name>KeyboardContainer</Name>
     <BaseType>Container</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>TreeViewInstance</Name>
+    <BaseType>Controls/TreeView</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>DialogBoxInstance</Name>
+    <BaseType>Controls/DialogBox</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
 </ScreenSave>

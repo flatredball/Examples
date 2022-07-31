@@ -426,13 +426,13 @@
     <Variable>
       <Type>float</Type>
       <Name>DemoDialog.X</Name>
-      <Value xsi:type="xsd:float">488</Value>
+      <Value xsi:type="xsd:float">425</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>float</Type>
       <Name>DemoDialog.Y</Name>
-      <Value xsi:type="xsd:float">42</Value>
+      <Value xsi:type="xsd:float">13</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -474,7 +474,7 @@
     <Variable>
       <Type>float</Type>
       <Name>DemoHud.X</Name>
-      <Value xsi:type="xsd:float">486</Value>
+      <Value xsi:type="xsd:float">427</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -492,7 +492,7 @@
     <Variable>
       <Type>float</Type>
       <Name>DemoHud.Y</Name>
-      <Value xsi:type="xsd:float">218</Value>
+      <Value xsi:type="xsd:float">187</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -528,13 +528,13 @@
     <Variable>
       <Type>float</Type>
       <Name>DemoSettingsMenu.X</Name>
-      <Value xsi:type="xsd:float">40</Value>
+      <Value xsi:type="xsd:float">15</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>float</Type>
       <Name>DemoSettingsMenu.Y</Name>
-      <Value xsi:type="xsd:float">35</Value>
+      <Value xsi:type="xsd:float">12</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -552,13 +552,13 @@
     <Variable>
       <Type>float</Type>
       <Name>DemoTabbedMenu.X</Name>
-      <Value xsi:type="xsd:float">498</Value>
+      <Value xsi:type="xsd:float">426</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>float</Type>
       <Name>DemoTabbedMenu.Y</Name>
-      <Value xsi:type="xsd:float">456</Value>
+      <Value xsi:type="xsd:float">405</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -601,6 +601,18 @@
       <Type>float</Type>
       <Name>DetectResolutionsButton.Y</Name>
       <Value xsi:type="xsd:float">9</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>DialogBoxInstance.X</Name>
+      <Value xsi:type="xsd:float">723</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>DialogBoxInstance.Y</Name>
+      <Value xsi:type="xsd:float">188</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -2086,6 +2098,30 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>float</Type>
+      <Name>TreeViewInstance.Height</Name>
+      <Value xsi:type="xsd:float">155</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>TreeViewInstance.Width</Name>
+      <Value xsi:type="xsd:float">243</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>TreeViewInstance.X</Name>
+      <Value xsi:type="xsd:float">16</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>TreeViewInstance.Y</Name>
+      <Value xsi:type="xsd:float">595</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>VideoSettingsButton.ButtonDisplayText</Name>
       <Value xsi:type="xsd:string">Video Settings</Value>
@@ -2450,6 +2486,16 @@
   <Instance>
     <Name>Tab1</Name>
     <BaseType>Controls/ButtonTab</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>TreeViewInstance</Name>
+    <BaseType>Controls/TreeView</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>DialogBoxInstance</Name>
+    <BaseType>Controls/DialogBox</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
 </ScreenSave>
