@@ -75,7 +75,9 @@
       <DependentUpon>DemoScreenGumForms.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Screens\KeyboardScreenGumForms.cs" />
-    <Compile Include="Forms\Screens\KeyboardScreenGumForms.Generated.cs" />
+    <Compile Include="Forms\Screens\KeyboardScreenGumForms.Generated.cs">
+      <DependentUpon>KeyboardScreenGumForms.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Screens\StylesScreenForms.cs" />
     <Compile Include="Forms\Screens\StylesScreenForms.Generated.cs">
       <DependentUpon>StylesScreenForms.cs</DependentUpon>
@@ -171,9 +173,13 @@
       <DependentUpon>ComboBoxRuntime.cs</DependentUpon>
     </Compile>
     <Compile Include="GumRuntimes\Controls\KeyboardKeyRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\KeyboardKeyRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\KeyboardKeyRuntime.Generated.cs">
+      <DependentUpon>KeyboardKeyRuntime.cs</DependentUpon>
+    </Compile>
     <Compile Include="GumRuntimes\Controls\KeyboardRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\KeyboardRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\KeyboardRuntime.Generated.cs">
+      <DependentUpon>KeyboardRuntime.cs</DependentUpon>
+    </Compile>
     <Compile Include="GumRuntimes\Controls\ListBoxItemRuntime.cs" />
     <Compile Include="GumRuntimes\Controls\ListBoxItemRuntime.Generated.cs">
       <DependentUpon>ListBoxItemRuntime.cs</DependentUpon>
@@ -308,13 +314,9 @@
     <Compile Include="TileGraphics\TilesetExtensionMethods.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="GumCoreXnaPc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="MonoGame.Framework, Version=3.7.0.1027, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Libraries\DesktopGl\Debug\GumCoreXnaPc.dll</HintPath>
-    </Reference>
-    <Reference Include="MonoGame.Framework, Version=3.5.1.1679, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Libraries\DesktopGl\Debug\MonoGame.Framework.dll</HintPath>
+      <HintPath>Libraries\DesktopGL\Debug\MonoGame.Framework.dll</HintPath>
     </Reference>
     <Reference Include="NVorbis, Version=0.8.4.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -661,6 +663,14 @@
     <ProjectReference Include="..\..\..\FlatRedBall\Engines\Forms\FlatRedBall.Forms\FlatRedBall.Forms\FlatRedBall.Forms.DesktopGL.csproj">
       <Project>{aa2297a1-6bb4-4165-89a6-c099f687085f}</Project>
       <Name>FlatRedBall.Forms.DesktopGL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\FlatRedBall\Engines\Forms\FlatRedBall.Forms\StateInterpolation\StateInterpolation.DesktopGL.csproj">
+      <Project>{f0bdee46-0374-4278-b1c3-f91a76fe3a8d}</Project>
+      <Name>StateInterpolation.DesktopGL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Gum\GumCore\GumCoreXnaPc\GumCoreDesktopGL.csproj">
+      <Project>{fc2030b0-e60b-434d-a513-400270b8d7c6}</Project>
+      <Name>GumCoreDesktopGL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
