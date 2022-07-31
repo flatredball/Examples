@@ -29,6 +29,12 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>CaretInstance.Height Units</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>IconCategory</Type>
       <Name>CaretInstance.IconCategoryState</Name>
       <Value xsi:type="xsd:string">CursorText</Value>
@@ -41,9 +47,52 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>CaretInstance.SourceFile</Name>
+      <Value xsi:type="xsd:string">UISpriteSheet.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>TextureAddress</Type>
+      <Name>CaretInstance.Texture Address</Name>
+      <Value xsi:type="xsd:int">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>CaretInstance.Texture Height</Name>
+      <Value xsi:type="xsd:int">24</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>CaretInstance.Texture Left</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>CaretInstance.Texture Top</Name>
+      <Value xsi:type="xsd:int">48</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>CaretInstance.Texture Width</Name>
+      <Value xsi:type="xsd:int">24</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>float</Type>
       <Name>CaretInstance.Width</Name>
       <Value xsi:type="xsd:float">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>CaretInstance.Width Units</Name>
+      <Value xsi:type="xsd:int">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -372,6 +421,13 @@
       <Value xsi:type="xsd:float">256</Value>
       <SetsValue>true</SetsValue>
     </Variable>
+    <VariableList xsi:type="VariableListSaveOfString">
+      <Type>string</Type>
+      <Name>CaretInstance.AnimationFrames</Name>
+      <IsFile>false</IsFile>
+      <IsHiddenInPropertyGrid>false</IsHiddenInPropertyGrid>
+      <Value />
+    </VariableList>
   </State>
   <Category>
     <Name>TextBoxCategory</Name>
@@ -509,11 +565,6 @@
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Instance>
-    <Name>CaretInstance</Name>
-    <BaseType>ColoredRectangle</BaseType>
-    <DefinedByBase>false</DefinedByBase>
-  </Instance>
-  <Instance>
     <Name>PlaceholderTextInstance</Name>
     <BaseType>Text</BaseType>
     <DefinedByBase>false</DefinedByBase>
@@ -521,6 +572,11 @@
   <Instance>
     <Name>FocusedIndicator</Name>
     <BaseType>NineSlice</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>CaretInstance</Name>
+    <BaseType>Sprite</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Behaviors>
