@@ -1,0 +1,16 @@
+{
+  "Tags": [
+    "GLUE"
+  ],
+  "Source": "GLUE",
+  "ReferencedFiles": [
+    {
+      "Name": "gumproject/Screens/KeyboardScreenGum.gusx",
+      "IsSharedStatic": true,
+      "RuntimeType": "NewGum.GumRuntimes.KeyboardScreenGumRuntime",
+      "ProjectsToExcludeFrom": []
+    }
+  ],
+  "Name": "Screens\\KeyboardScreen",
+  "CustomClassesForExport": []
+}

@@ -1,0 +1,16 @@
+{
+  "Tags": [
+    "GLUE"
+  ],
+  "Source": "GLUE",
+  "ReferencedFiles": [
+    {
+      "Name": "gumproject/Screens/DemoScreenGum.gusx",
+      "IsSharedStatic": true,
+      "RuntimeType": "NewGum.GumRuntimes.DemoScreenGumRuntime",
+      "ProjectsToExcludeFrom": []
+    }
+  ],
+  "Name": "Screens\\DemoScreen",
+  "CustomClassesForExport": []
+}
