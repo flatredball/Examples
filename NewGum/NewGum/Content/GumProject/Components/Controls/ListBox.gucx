@@ -255,18 +255,6 @@
       <SetsValue>false</SetsValue>
     </Variable>
     <Variable>
-      <Type>ListBoxItemCategory</Type>
-      <Name>ListBoxItemInstance.ListBoxItemCategoryState</Name>
-      <Value xsi:type="xsd:string">Highlighted</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>string</Type>
-      <Name>ListBoxItemInstance.Parent</Name>
-      <Value xsi:type="xsd:string">InnerPanelInstance</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>State</Type>
       <Name>State</Name>
       <SetsValue>true</SetsValue>
@@ -388,11 +376,6 @@
   <Instance>
     <Name>FocusedIndicator</Name>
     <BaseType>NineSlice</BaseType>
-    <DefinedByBase>false</DefinedByBase>
-  </Instance>
-  <Instance>
-    <Name>ListBoxItemInstance</Name>
-    <BaseType>Controls/ListBoxItem</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Behaviors>
