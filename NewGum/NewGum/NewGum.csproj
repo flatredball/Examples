@@ -173,7 +173,9 @@
       <DependentUpon>ComboBoxRuntime.cs</DependentUpon>
     </Compile>
     <Compile Include="GumRuntimes\Controls\DialogBoxRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\DialogBoxRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\DialogBoxRuntime.Generated.cs">
+      <DependentUpon>DialogBoxRuntime.cs</DependentUpon>
+    </Compile>
     <Compile Include="GumRuntimes\Controls\KeyboardKeyRuntime.cs" />
     <Compile Include="GumRuntimes\Controls\KeyboardKeyRuntime.Generated.cs">
       <DependentUpon>KeyboardKeyRuntime.cs</DependentUpon>
