@@ -23,8 +23,8 @@ namespace NewGum.Screens
 
         void CustomInitialize()
         {
-
-
+            this.Forms.KeyboardInstance.AssociatedTextBox = this.Forms.TextBoxInstance;
+            this.Forms.TextBoxInstance.IsCaretVisibleWhenNotFocused = true;
         }
 
         void CustomActivity(bool firstTimeCalled)

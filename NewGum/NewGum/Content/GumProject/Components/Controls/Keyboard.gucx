@@ -1295,7 +1295,7 @@
     <Variable>
       <Type>string</Type>
       <Name>KeyBackspace.Text</Name>
-      <Value xsi:type="xsd:string">Bksp.</Value>
+      <Value xsi:type="xsd:string"></Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -4383,7 +4383,7 @@
   </Instance>
   <Instance>
     <Name>KeyBackspace</Name>
-    <BaseType>Controls/ButtonStandard</BaseType>
+    <BaseType>Controls/KeyboardKey</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Instance>

@@ -52,7 +52,7 @@
   ],
   "GlobalContentSettingsSave": {},
   "SyncedProjects": [],
-  "StartUpScreen": "Screens\\DemoScreen",
+  "StartUpScreen": "Screens\\KeyboardScreen",
   "ResolutionPresets": [],
   "PerformanceSettingsSave": {},
   "IgnoredDirectories": [],
@@ -84,9 +84,6 @@
     },
     {
       "Name": "Screens\\KeyboardScreen"
-    },
-    {
-      "Name": "Screens\\NewScreen"
     }
   ],
   "EntityReferences": [],

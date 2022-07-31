@@ -75,13 +75,7 @@
       <DependentUpon>DemoScreenGumForms.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Screens\KeyboardScreenGumForms.cs" />
-    <Compile Include="Forms\Screens\KeyboardScreenGumForms.Generated.cs">
-      <DependentUpon>KeyboardScreenGumForms.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Screens\NewScreenGumForms.cs" />
-    <Compile Include="Forms\Screens\NewScreenGumForms.Generated.cs">
-      <DependentUpon>NewScreenGumForms.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Forms\Screens\KeyboardScreenGumForms.Generated.cs" />
     <Compile Include="Forms\Screens\StylesScreenForms.cs" />
     <Compile Include="Forms\Screens\StylesScreenForms.Generated.cs">
       <DependentUpon>StylesScreenForms.cs</DependentUpon>
@@ -176,6 +170,10 @@
     <Compile Include="GumRuntimes\Controls\ComboBoxRuntime.Generated.cs">
       <DependentUpon>ComboBoxRuntime.cs</DependentUpon>
     </Compile>
+    <Compile Include="GumRuntimes\Controls\KeyboardKeyRuntime.cs" />
+    <Compile Include="GumRuntimes\Controls\KeyboardKeyRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\KeyboardRuntime.cs" />
+    <Compile Include="GumRuntimes\Controls\KeyboardRuntime.Generated.cs" />
     <Compile Include="GumRuntimes\Controls\ListBoxItemRuntime.cs" />
     <Compile Include="GumRuntimes\Controls\ListBoxItemRuntime.Generated.cs">
       <DependentUpon>ListBoxItemRuntime.cs</DependentUpon>
@@ -258,14 +256,7 @@
       <DependentUpon>VerticalLinesRuntime.cs</DependentUpon>
     </Compile>
     <Compile Include="GumRuntimes\GumIdb.Generated.cs" />
-    <Compile Include="GumRuntimes\KeyboardScreenGumRuntime.cs" />
-    <Compile Include="GumRuntimes\KeyboardScreenGumRuntime.Generated.cs">
-      <DependentUpon>KeyboardScreenGumRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\NewScreenGumRuntime.cs" />
-    <Compile Include="GumRuntimes\NewScreenGumRuntime.Generated.cs">
-      <DependentUpon>NewScreenGumRuntime.cs</DependentUpon>
-    </Compile>
+    <Compile Include="GumRuntimes\KeyboardScreenGumRuntime.Generated.cs" />
     <Compile Include="GumRuntimes\NineSliceRuntime.Generated.cs" />
     <Compile Include="GumRuntimes\PolygonRuntime.Generated.cs" />
     <Compile Include="GumRuntimes\RectangleRuntime.Generated.cs" />
@@ -286,10 +277,6 @@
     <Compile Include="Screens\KeyboardScreen.cs" />
     <Compile Include="Screens\KeyboardScreen.Generated.cs">
       <DependentUpon>KeyboardScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\NewScreen.cs" />
-    <Compile Include="Screens\NewScreen.Generated.cs">
-      <DependentUpon>NewScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Setup\CameraSetup.cs" />
     <Compile Include="TileCollisions\CollidableListVsTileShapeCollectionRelationship.cs" />
@@ -383,6 +370,14 @@
     <None Include="content\gumproject\components\controls\combobox.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>combobox</Name>
+    </None>
+    <None Include="content\gumproject\components\controls\keyboard.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>keyboard</Name>
+    </None>
+    <None Include="content\gumproject\components\controls\keyboardkey.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>keyboardkey</Name>
     </None>
     <None Include="content\gumproject\components\controls\listbox.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -547,10 +542,6 @@
     <None Include="content\gumproject\screens\keyboardscreengum.gusx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>KeyboardScreenGum</Name>
-    </None>
-    <None Include="content\gumproject\screens\newscreengum.gusx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>NewScreenGum</Name>
     </None>
     <None Include="content\gumproject\screens\stylesscreen.gusx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
