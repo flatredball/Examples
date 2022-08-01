@@ -172,56 +172,56 @@
     </Variable>
     <Variable>
       <Type>ColorCategory</Type>
-      <Name>RadioText.ColorCategoryState</Name>
+      <Name>TextInstance.ColorCategoryState</Name>
       <Value xsi:type="xsd:string">White</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>RadioText.Height Units</Name>
+      <Name>TextInstance.Height Units</Name>
       <Value xsi:type="xsd:int">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>StyleCategory</Type>
-      <Name>RadioText.StyleCategoryState</Name>
+      <Name>TextInstance.StyleCategoryState</Name>
       <Value xsi:type="xsd:string">Normal</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>string</Type>
-      <Name>RadioText.Text</Name>
+      <Name>TextInstance.Text</Name>
       <Value xsi:type="xsd:string">Radio Label</Value>
       <ExposedAsName>RadioDisplayText</ExposedAsName>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>VerticalAlignment</Type>
-      <Name>RadioText.VerticalAlignment</Name>
+      <Name>TextInstance.VerticalAlignment</Name>
       <Value xsi:type="xsd:int">1</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>float</Type>
-      <Name>RadioText.Width</Name>
+      <Name>TextInstance.Width</Name>
       <Value xsi:type="xsd:float">-28</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>RadioText.Width Units</Name>
+      <Name>TextInstance.Width Units</Name>
       <Value xsi:type="xsd:int">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>HorizontalAlignment</Type>
-      <Name>RadioText.X Origin</Name>
+      <Name>TextInstance.X Origin</Name>
       <Value xsi:type="xsd:int">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>RadioText.X Units</Name>
+      <Name>TextInstance.X Units</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -267,7 +267,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>RadioText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -300,7 +300,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>RadioText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -333,7 +333,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>RadioText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">Gray</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -366,7 +366,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>RadioText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">Gray</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -399,7 +399,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>RadioText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -432,7 +432,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>RadioText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -465,7 +465,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>RadioText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -498,7 +498,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>RadioText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -531,7 +531,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>RadioText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -564,7 +564,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>RadioText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -597,7 +597,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>RadioText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -630,7 +630,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>RadioText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -663,7 +663,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>RadioText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">Gray</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -696,7 +696,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>RadioText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">Gray</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -713,7 +713,7 @@
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Instance>
-    <Name>RadioText</Name>
+    <Name>TextInstance</Name>
     <BaseType>Text</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
