@@ -414,7 +414,7 @@
     <Variable>
       <Type>float</Type>
       <Name>DemoDialog.Height</Name>
-      <Value xsi:type="xsd:float">163</Value>
+      <Value xsi:type="xsd:float">199</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -492,7 +492,7 @@
     <Variable>
       <Type>float</Type>
       <Name>DemoHud.Y</Name>
-      <Value xsi:type="xsd:float">187</Value>
+      <Value xsi:type="xsd:float">239</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -558,7 +558,7 @@
     <Variable>
       <Type>float</Type>
       <Name>DemoTabbedMenu.Y</Name>
-      <Value xsi:type="xsd:float">405</Value>
+      <Value xsi:type="xsd:float">452</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -612,7 +612,7 @@
     <Variable>
       <Type>float</Type>
       <Name>DialogBoxInstance.Y</Name>
-      <Value xsi:type="xsd:float">214</Value>
+      <Value xsi:type="xsd:float">264</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -1811,7 +1811,7 @@
     <Variable>
       <Type>float</Type>
       <Name>ShowDialogButton.Y</Name>
-      <Value xsi:type="xsd:float">186</Value>
+      <Value xsi:type="xsd:float">236</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -2129,6 +2129,36 @@
       <Type>DimensionUnitType</Type>
       <Name>TextBoxInstance.Width Units</Name>
       <Value xsi:type="xsd:int">2</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>TextBoxInstance1.Parent</Name>
+      <Value xsi:type="xsd:string">MarginContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>TextBoxInstance1.Width</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>TextBoxInstance1.Width Units</Name>
+      <Value xsi:type="xsd:int">2</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>TextBoxInstance1.X</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>TextBoxInstance1.Y</Name>
+      <Value xsi:type="xsd:float">7</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -2452,6 +2482,11 @@
   <Instance>
     <Name>TextBoxInstance</Name>
     <BaseType>Controls/TextBox</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>TextBoxInstance1</Name>
+    <BaseType>Controls/PasswordBox</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Instance>

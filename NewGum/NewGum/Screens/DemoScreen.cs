@@ -36,7 +36,7 @@ namespace NewGum.Screens
         {
             Forms.ShowToastButton.Click += (not, used) =>
             {
-                ToastManager.Show($"It is now: {DateTime.Now}", durationInSeconds:10);
+                ToastManager.Show($"It is now: {DateTime.Now}", durationInSeconds:2);
             };
         }
 
