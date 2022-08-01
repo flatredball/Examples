@@ -18,39 +18,39 @@
     </Variable>
     <Variable>
       <Type>ColorCategory</Type>
-      <Name>LabelTextInstance.ColorCategoryState</Name>
+      <Name>TextInstance.ColorCategoryState</Name>
       <Value xsi:type="xsd:string">White</Value>
       <ExposedAsName>LabelColor</ExposedAsName>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>HorizontalAlignment</Type>
-      <Name>LabelTextInstance.HorizontalAlignment</Name>
+      <Name>TextInstance.HorizontalAlignment</Name>
       <ExposedAsName>HorizontalAlignment</ExposedAsName>
       <SetsValue>false</SetsValue>
     </Variable>
     <Variable>
       <Type>StyleCategory</Type>
-      <Name>LabelTextInstance.StyleCategoryState</Name>
+      <Name>TextInstance.StyleCategoryState</Name>
       <Value xsi:type="xsd:string">Strong</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>string</Type>
-      <Name>LabelTextInstance.Text</Name>
+      <Name>TextInstance.Text</Name>
       <Value xsi:type="xsd:string">Item Label</Value>
       <ExposedAsName>LabelText</ExposedAsName>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>VerticalAlignment</Type>
-      <Name>LabelTextInstance.VerticalAlignment</Name>
+      <Name>TextInstance.VerticalAlignment</Name>
       <ExposedAsName>VerticalAlignment</ExposedAsName>
       <SetsValue>false</SetsValue>
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>LabelTextInstance.Width Units</Name>
+      <Name>TextInstance.Width Units</Name>
       <Value xsi:type="xsd:int">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -67,9 +67,13 @@
     </Variable>
   </State>
   <Instance>
-    <Name>LabelTextInstance</Name>
+    <Name>TextInstance</Name>
     <BaseType>Text</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
-  <Behaviors />
+  <Behaviors>
+    <ElementBehaviorReference>
+      <BehaviorName>LabelBehavior</BehaviorName>
+    </ElementBehaviorReference>
+  </Behaviors>
 </ComponentSave>

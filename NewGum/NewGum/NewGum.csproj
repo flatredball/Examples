@@ -86,6 +86,11 @@
     <Compile Include="Forms\Screens\TestScreenForms.Generated.cs">
       <DependentUpon>TestScreenForms.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Screens\UserControlPageGumForms.cs" />
+    <Compile Include="Forms\Screens\UserControlPageGumForms.Generated.cs">
+      <DependentUpon>UserControlPageGumForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControls\CodeOnlyUserControl.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Game1.Generated.cs">
       <DependentUpon>Game1.cs</DependentUpon>
@@ -288,6 +293,10 @@
       <DependentUpon>TestScreenRuntime.cs</DependentUpon>
     </Compile>
     <Compile Include="GumRuntimes\TextRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\UserControlPageGumRuntime.cs" />
+    <Compile Include="GumRuntimes\UserControlPageGumRuntime.Generated.cs">
+      <DependentUpon>UserControlPageGumRuntime.cs</DependentUpon>
+    </Compile>
     <Compile Include="Performance\IEntityFactory.Generated.cs" />
     <Compile Include="Performance\PoolList.Generated.cs" />
     <Compile Include="Program.cs" />
@@ -299,6 +308,10 @@
     <Compile Include="Screens\KeyboardScreen.cs" />
     <Compile Include="Screens\KeyboardScreen.Generated.cs">
       <DependentUpon>KeyboardScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\UserControlPage.cs" />
+    <Compile Include="Screens\UserControlPage.Generated.cs">
+      <DependentUpon>UserControlPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Setup\CameraSetup.cs" />
     <Compile Include="TileCollisions\CollidableListVsTileShapeCollectionRelationship.cs" />
@@ -576,6 +589,10 @@
     <None Include="content\gumproject\screens\testscreen.gusx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>testscreen</Name>
+    </None>
+    <None Include="content\gumproject\screens\usercontrolpagegum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>UserControlPageGum</Name>
     </None>
     <None Include="content\gumproject\standards\circle.gutx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

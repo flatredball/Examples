@@ -28,4 +28,5 @@
   </Category>
   <RequiredInstances />
   <RequiredAnimations />
+  <DefaultImplementation>Controls/ButtonStandard</DefaultImplementation>
 </BehaviorSave>

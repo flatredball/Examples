@@ -1,0 +1,16 @@
+{
+  "Tags": [
+    "GLUE"
+  ],
+  "Source": "GLUE",
+  "ReferencedFiles": [
+    {
+      "Name": "gumproject/Screens/UserControlPageGum.gusx",
+      "IsSharedStatic": true,
+      "RuntimeType": "NewGum.GumRuntimes.UserControlPageGumRuntime",
+      "ProjectsToExcludeFrom": []
+    }
+  ],
+  "Name": "Screens\\UserControlPage",
+  "CustomClassesForExport": []
+}

@@ -88,60 +88,60 @@
     </Variable>
     <Variable>
       <Type>ColorCategory</Type>
-      <Name>ButtonText.ColorCategoryState</Name>
+      <Name>TextInstance.ColorCategoryState</Name>
       <Value xsi:type="xsd:string">White</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>ButtonText.Height Units</Name>
+      <Name>TextInstance.Height Units</Name>
       <Value xsi:type="xsd:int">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>HorizontalAlignment</Type>
-      <Name>ButtonText.HorizontalAlignment</Name>
+      <Name>TextInstance.HorizontalAlignment</Name>
       <Value xsi:type="xsd:int">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>string</Type>
-      <Name>ButtonText.Parent</Name>
+      <Name>TextInstance.Parent</Name>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>SizeCategory</Type>
-      <Name>ButtonText.SizeCategoryState</Name>
+      <Name>TextInstance.SizeCategoryState</Name>
       <Value xsi:type="xsd:string">Strong</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>string</Type>
-      <Name>ButtonText.Text</Name>
+      <Name>TextInstance.Text</Name>
       <ExposedAsName>ButtonDisplayText</ExposedAsName>
       <SetsValue>false</SetsValue>
     </Variable>
     <Variable>
       <Type>VerticalAlignment</Type>
-      <Name>ButtonText.VerticalAlignment</Name>
+      <Name>TextInstance.VerticalAlignment</Name>
       <Value xsi:type="xsd:int">1</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>float</Type>
-      <Name>ButtonText.Width</Name>
+      <Name>TextInstance.Width</Name>
       <Value xsi:type="xsd:float">-32</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>ButtonText.Width Units</Name>
+      <Name>TextInstance.Width Units</Name>
       <Value xsi:type="xsd:int">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>float</Type>
-      <Name>ButtonText.X</Name>
+      <Name>TextInstance.X</Name>
       <Value xsi:type="xsd:float">32</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -251,7 +251,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>ButtonText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -279,7 +279,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>ButtonText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">Gray</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -306,7 +306,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>ButtonText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -334,7 +334,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>ButtonText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -362,7 +362,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>ButtonText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -390,7 +390,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>ButtonText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">White</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -418,7 +418,7 @@
       </Variable>
       <Variable>
         <Type>ColorCategory</Type>
-        <Name>ButtonText.ColorCategoryState</Name>
+        <Name>TextInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">Gray</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -443,7 +443,7 @@
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Instance>
-    <Name>ButtonText</Name>
+    <Name>TextInstance</Name>
     <BaseType>Text</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>

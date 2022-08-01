@@ -546,7 +546,7 @@
     <Variable>
       <Type>float</Type>
       <Name>DemoTabbedMenu.Width</Name>
-      <Value xsi:type="xsd:float">458</Value>
+      <Value xsi:type="xsd:float">467</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -1924,7 +1924,19 @@
     <Variable>
       <Type>float</Type>
       <Name>Tab1.X</Name>
-      <Value xsi:type="xsd:float">-184</Value>
+      <Value xsi:type="xsd:float">10</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>HorizontalAlignment</Type>
+      <Name>Tab1.X Origin</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>Tab1.X Units</Name>
+      <Value xsi:type="xsd:int">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -1948,7 +1960,19 @@
     <Variable>
       <Type>float</Type>
       <Name>Tab2.X</Name>
-      <Value xsi:type="xsd:float">-124</Value>
+      <Value xsi:type="xsd:float">71</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>HorizontalAlignment</Type>
+      <Name>Tab2.X Origin</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>Tab2.X Units</Name>
+      <Value xsi:type="xsd:int">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -1972,7 +1996,19 @@
     <Variable>
       <Type>float</Type>
       <Name>Tab3.X</Name>
-      <Value xsi:type="xsd:float">-72</Value>
+      <Value xsi:type="xsd:float">117</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>HorizontalAlignment</Type>
+      <Name>Tab3.X Origin</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>Tab3.X Units</Name>
+      <Value xsi:type="xsd:int">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>

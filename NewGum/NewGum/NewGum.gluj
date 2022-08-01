@@ -52,7 +52,7 @@
   ],
   "GlobalContentSettingsSave": {},
   "SyncedProjects": [],
-  "StartUpScreen": "Screens\\DemoScreen",
+  "StartUpScreen": "Screens\\UserControlPage",
   "ResolutionPresets": [],
   "PerformanceSettingsSave": {},
   "IgnoredDirectories": [],
@@ -84,6 +84,9 @@
     },
     {
       "Name": "Screens\\KeyboardScreen"
+    },
+    {
+      "Name": "Screens\\UserControlPage"
     }
   ],
   "EntityReferences": [],
