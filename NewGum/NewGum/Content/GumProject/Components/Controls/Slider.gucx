@@ -235,13 +235,6 @@
         <Value xsi:type="xsd:boolean">false</Value>
         <SetsValue>true</SetsValue>
       </Variable>
-      <Variable>
-        <Type>float</Type>
-        <Name>FocusedIndicator.Width</Name>
-        <Value xsi:type="xsd:float">0</Value>
-        <Category>Dimensions</Category>
-        <SetsValue>true</SetsValue>
-      </Variable>
     </State>
     <State>
       <Name>Focused</Name>
@@ -249,12 +242,6 @@
         <Type>bool</Type>
         <Name>FocusedIndicator.Visible</Name>
         <Value xsi:type="xsd:boolean">true</Value>
-        <SetsValue>true</SetsValue>
-      </Variable>
-      <Variable>
-        <Type>float</Type>
-        <Name>FocusedIndicator.Width</Name>
-        <Value xsi:type="xsd:float">-24</Value>
         <SetsValue>true</SetsValue>
       </Variable>
     </State>
