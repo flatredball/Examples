@@ -92,6 +92,13 @@
     <State>
       <Name>EnabledOn</Name>
       <Variable>
+        <Type>ColorCategory</Type>
+        <Name>IconInstance.IconColor</Name>
+        <Value xsi:type="xsd:string">White</Value>
+        <ExposedAsName>IconColor</ExposedAsName>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>float</Type>
         <Name>IconInstance.Rotation</Name>
         <Value xsi:type="xsd:float">-90</Value>
@@ -115,6 +122,9 @@
         <Value xsi:type="xsd:string">Primary</Value>
         <SetsValue>true</SetsValue>
       </Variable>
+    </State>
+    <State>
+      <Name>EnabledOff</Name>
       <Variable>
         <Type>ColorCategory</Type>
         <Name>IconInstance.IconColor</Name>
@@ -122,9 +132,6 @@
         <ExposedAsName>IconColor</ExposedAsName>
         <SetsValue>true</SetsValue>
       </Variable>
-    </State>
-    <State>
-      <Name>EnabledOff</Name>
       <Variable>
         <Type>float</Type>
         <Name>IconInstance.Rotation</Name>
@@ -150,13 +157,6 @@
         <Type>ColorCategory</Type>
         <Name>NineSliceInstance.ColorCategoryState</Name>
         <Value xsi:type="xsd:string">Primary</Value>
-        <SetsValue>true</SetsValue>
-      </Variable>
-      <Variable>
-        <Type>ColorCategory</Type>
-        <Name>IconInstance.IconColor</Name>
-        <Value xsi:type="xsd:string">White</Value>
-        <ExposedAsName>IconColor</ExposedAsName>
         <SetsValue>true</SetsValue>
       </Variable>
     </State>

@@ -129,6 +129,12 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>StyleCategory</Type>
+      <Name>TabText.StyleCategoryState</Name>
+      <Value xsi:type="xsd:string">Strong</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>TabText.Text</Name>
       <Value xsi:type="xsd:string">Tab 1</Value>

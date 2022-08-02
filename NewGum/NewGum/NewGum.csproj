@@ -514,21 +514,13 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>font12titillium_web_0</Name>
     </None>
-    <None Include="content\gumproject\fontcache\font12titillium_web_bold.fnt">
+    <None Include="content\gumproject\fontcache\font14titillium_web.fnt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>font12titillium_web_bold</Name>
+      <Name>font14titillium_web</Name>
     </None>
-    <None Include="content\gumproject\fontcache\font12titillium_web_bold_0.png">
+    <None Include="content\gumproject\fontcache\font14titillium_web_0.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>font12titillium_web_bold_0</Name>
-    </None>
-    <None Include="content\gumproject\fontcache\font12titillium_web_italic.fnt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>font12titillium_web_italic</Name>
-    </None>
-    <None Include="content\gumproject\fontcache\font12titillium_web_italic_0.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>font12titillium_web_italic_0</Name>
+      <Name>font14titillium_web_0</Name>
     </None>
     <None Include="content\gumproject\fontcache\font14titillium_web_bold.fnt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -537,6 +529,14 @@
     <None Include="content\gumproject\fontcache\font14titillium_web_bold_0.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>font14titillium_web_bold_0</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font14titillium_web_italic.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>font14titillium_web_italic</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font14titillium_web_italic_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>font14titillium_web_italic_0</Name>
     </None>
     <None Include="content\gumproject\fontcache\font16titillium_web_bold.fnt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -554,21 +554,21 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>font18titillium_web_bold_0</Name>
     </None>
-    <None Include="content\gumproject\fontcache\font24titillium_web_bold.fnt">
+    <None Include="content\gumproject\fontcache\font22titillium_web_bold.fnt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>font24titillium_web_bold</Name>
+      <Name>font22titillium_web_bold</Name>
     </None>
-    <None Include="content\gumproject\fontcache\font24titillium_web_bold_0.png">
+    <None Include="content\gumproject\fontcache\font22titillium_web_bold_0.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>font24titillium_web_bold_0</Name>
+      <Name>font22titillium_web_bold_0</Name>
     </None>
-    <None Include="content\gumproject\fontcache\font8titillium_web.fnt">
+    <None Include="content\gumproject\fontcache\font28titillium_web_bold.fnt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>font8titillium_web</Name>
+      <Name>font28titillium_web_bold</Name>
     </None>
-    <None Include="content\gumproject\fontcache\font8titillium_web_0.png">
+    <None Include="content\gumproject\fontcache\font28titillium_web_bold_0.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>font8titillium_web_0</Name>
+      <Name>font28titillium_web_bold_0</Name>
     </None>
     <None Include="content\gumproject\gumproject.gumx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

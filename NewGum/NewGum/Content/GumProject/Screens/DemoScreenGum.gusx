@@ -581,6 +581,12 @@
     </Variable>
     <Variable>
       <Type>float</Type>
+      <Name>DetectResolutionsButton.Width</Name>
+      <Value xsi:type="xsd:float">156</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
       <Name>DetectResolutionsButton.X</Name>
       <Value xsi:type="xsd:float">0</Value>
       <SetsValue>true</SetsValue>
@@ -1846,7 +1852,7 @@
     <Variable>
       <Type>float</Type>
       <Name>ShowToastButton.X</Name>
-      <Value xsi:type="xsd:float">287</Value>
+      <Value xsi:type="xsd:float">788</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -1864,7 +1870,7 @@
     <Variable>
       <Type>float</Type>
       <Name>ShowToastButton.Y</Name>
-      <Value xsi:type="xsd:float">595</Value>
+      <Value xsi:type="xsd:float">16</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -2278,19 +2284,19 @@
     <Variable>
       <Type>float</Type>
       <Name>TreeViewInstance.Width</Name>
-      <Value xsi:type="xsd:float">243</Value>
+      <Value xsi:type="xsd:float">227</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>float</Type>
       <Name>TreeViewInstance.X</Name>
-      <Value xsi:type="xsd:float">16</Value>
+      <Value xsi:type="xsd:float">783</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>float</Type>
       <Name>TreeViewInstance.Y</Name>
-      <Value xsi:type="xsd:float">595</Value>
+      <Value xsi:type="xsd:float">50</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>

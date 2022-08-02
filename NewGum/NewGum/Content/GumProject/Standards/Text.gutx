@@ -549,7 +549,7 @@
       <Variable>
         <Type>int</Type>
         <Name>FontSize</Name>
-        <Value xsi:type="xsd:int">8</Value>
+        <Value xsi:type="xsd:int">10</Value>
         <Category>Font</Category>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -573,7 +573,7 @@
       <Variable>
         <Type>int</Type>
         <Name>FontSize</Name>
-        <Value xsi:type="xsd:int">10</Value>
+        <Value xsi:type="xsd:int">12</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -596,7 +596,7 @@
       <Variable>
         <Type>int</Type>
         <Name>FontSize</Name>
-        <Value xsi:type="xsd:int">12</Value>
+        <Value xsi:type="xsd:int">14</Value>
         <Category>Font</Category>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -620,7 +620,7 @@
       <Variable>
         <Type>int</Type>
         <Name>FontSize</Name>
-        <Value xsi:type="xsd:int">12</Value>
+        <Value xsi:type="xsd:int">14</Value>
         <Category>Font</Category>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -643,7 +643,7 @@
       <Variable>
         <Type>int</Type>
         <Name>FontSize</Name>
-        <Value xsi:type="xsd:int">12</Value>
+        <Value xsi:type="xsd:int">14</Value>
         <Category>Font</Category>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -663,30 +663,6 @@
     </State>
     <State>
       <Name>H3</Name>
-      <Variable>
-        <Type>int</Type>
-        <Name>FontSize</Name>
-        <Value xsi:type="xsd:int">14</Value>
-        <Category>Font</Category>
-        <SetsValue>true</SetsValue>
-      </Variable>
-      <Variable>
-        <Type>bool</Type>
-        <Name>IsBold</Name>
-        <Value xsi:type="xsd:boolean">true</Value>
-        <Category>Font</Category>
-        <SetsValue>true</SetsValue>
-      </Variable>
-      <Variable>
-        <Type>bool</Type>
-        <Name>IsItalic</Name>
-        <Value xsi:type="xsd:boolean">false</Value>
-        <Category>Font</Category>
-        <SetsValue>true</SetsValue>
-      </Variable>
-    </State>
-    <State>
-      <Name>H2</Name>
       <Variable>
         <Type>int</Type>
         <Name>FontSize</Name>
@@ -710,7 +686,7 @@
       </Variable>
     </State>
     <State>
-      <Name>H1</Name>
+      <Name>H2</Name>
       <Variable>
         <Type>int</Type>
         <Name>FontSize</Name>
@@ -734,11 +710,35 @@
       </Variable>
     </State>
     <State>
+      <Name>H1</Name>
+      <Variable>
+        <Type>int</Type>
+        <Name>FontSize</Name>
+        <Value xsi:type="xsd:int">22</Value>
+        <Category>Font</Category>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>bool</Type>
+        <Name>IsBold</Name>
+        <Value xsi:type="xsd:boolean">true</Value>
+        <Category>Font</Category>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>bool</Type>
+        <Name>IsItalic</Name>
+        <Value xsi:type="xsd:boolean">false</Value>
+        <Category>Font</Category>
+        <SetsValue>true</SetsValue>
+      </Variable>
+    </State>
+    <State>
       <Name>Title</Name>
       <Variable>
         <Type>int</Type>
         <Name>FontSize</Name>
-        <Value xsi:type="xsd:int">24</Value>
+        <Value xsi:type="xsd:int">28</Value>
         <Category>Font</Category>
         <SetsValue>true</SetsValue>
       </Variable>
